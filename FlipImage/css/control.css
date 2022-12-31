@@ -1,0 +1,13 @@
+.imgtest {
+    width: 80%;
+    height: auto;
+
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.imgtest:hover {
+    transform: rotate(180deg);
+    transition: 1.5s;
+}
+
