@@ -1,0 +1,37 @@
+.table {
+    background-color: rgb(90, 87, 102);
+
+    width: 650px;
+    height: 400px;
+
+    margin-left: 26%;
+    margin-top: 10%;
+}
+
+#bool2 {
+    margin-left: 23%;
+    margin-top: 13%;
+
+    border-radius: 7px;
+}
+
+#bool1 {
+    margin-left: 7%;
+    border-radius: 7px;
+}
+
+.btn {
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.display-4 {
+    color: white;
+    text-align: center;
+}
+
+.text {
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
