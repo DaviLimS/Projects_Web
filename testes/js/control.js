@@ -1,3 +1,0 @@
-function test() {
-    let y = document.documentElement.innerHTML = '<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="css/control.css" rel="stylesheet"><script src="js/control.js"></script></head><body style="background-color: rgb(70, 70, 85);"><a id="ui"><img src="img/fundo.jpg" class="imgtest"></a><button class="btn btn-lg btn-outline-light" onclick="test()">teste</button></body>';
-}
