@@ -1,0 +1,59 @@
+.plate1 {
+    background-color: rgb(54, 54, 54);
+
+    height: 350px;
+    width: 500px;
+
+    margin-top: 15%;
+    margin-left: 32%;
+}
+
+#temp {
+    margin-left: 13%;
+    margin-top: 7%;
+
+    width: 300px;
+
+    border-radius: 8px;
+}
+
+#wind {
+    margin-left: 13%;
+    margin-top: 3%;
+
+    width: 300px;
+
+    border-radius: 8px;
+}
+
+.temperature {
+    margin-left: 75%;
+    margin-top: -8%;
+
+    color: white;
+    font-size: 30px;
+}
+
+.speed {
+    margin-left: 75%;
+    margin-top: -8%;
+
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.display-4 {
+    margin-left: 15%;
+    color: white;
+}
+
+.indicator {
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
