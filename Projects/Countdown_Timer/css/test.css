@@ -1,11 +1,21 @@
 #dateTest {
-    margin-left: 36%;
-    margin-top: 15%;
+    margin-left: 38.5%;
+    margin-top: 10%;
 
     font-size: 40px;
 }
 
 .btn {
     margin-top: 10%;
-    margin-left: -15%;
+    margin-left: -14.5%;
+}
+
+.display-4 {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.display-5 {
+    text-align: center;
 }
