@@ -13,13 +13,12 @@
 <body>
     <h1 class="display-5">Calculate Event</h1>
 
-    <input type="datetime-local" name="date" id="dateTest">
-    <button class="btn btn-outline-dark btn-md" onclick="test();"> Confirm</button>
-
     <div>
         <h1 class="display-4">
-            <p class="p1">M: </p> <p class="p2" style="margin-top: 4%;"> D: </p> <p class="p3" style="margin-top: 4%;"> Y: </p>
+            <p class="p1">M: <input type="text" name="test1" id="month">  D: <input type="text" name="test2" id="day">  Y: <input type="text" name="test3" id="year"></p>
         </h1>
     </div>
+
+    <button class="btn btn-md btn-outline-alert" onclick="test();">Confirm</button>
 </body>
 </html>
