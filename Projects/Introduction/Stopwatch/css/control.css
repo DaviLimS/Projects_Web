@@ -1,0 +1,27 @@
+.display {
+    height: 80vh;
+    width: 100vw;
+    margin-top: 5%;
+    background-color: rgb(216, 216, 216);
+}
+
+.text {
+    text-align: center;
+    margin-top: -38%;
+    margin-bottom: 10%;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-top: 0;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 40px;
+}
+
+.buttons button {
+    margin-right: 40px;
+}
