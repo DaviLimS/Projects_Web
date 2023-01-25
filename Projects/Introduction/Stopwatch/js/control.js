@@ -1,21 +1,41 @@
-function start(duration, display) {
-    var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-        display.textContent = minutes + ":" + seconds;
+let h = 0;
+let m = 0;
+let s = 0;
 
-        if (--timer < 0) {
-            timer = duration;
-        }
+let tempo = 1000;
+let cron;
 
-    }, 1000);
+function start() {
+    cron = setInterval(() => { timer(); }, tempo);
 }
 
-window.onload = function () {
-    var duration = 60 * 10;
-    display = document.querySelector('#text'); 
-    start(duration, display); 
-};
+function pause() {
+    clearInterval(cron);
+}
+
+function reset() {
+    clearInterval(cron);
+    h = 0;
+    m = 0;
+    s = 0;
+
+    document.getElementById('text').innerText = "00:00:00";
+} 
+
+function timer() {
+    s++;
+    if(s == 60) {
+        s = 0;
+        m++;
+
+        if(m == 60) {
+            m = 0;
+            h++;
+        }
+    }
+
+    let format = (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
+    document.getElementById('text').innerText = format;
+
+    return format;
+}
