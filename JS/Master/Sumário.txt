@@ -1,0 +1,23 @@
+Configurando a aplicação 
+
+Definindo a lógica da aplicação 
+
+Listando dados
+
+Formatando strings e valores
+
+Adicionando novos registros
+
+Preparando para atualizar registros
+
+Atualizando dados
+
+Deletando dados
+
+Validando formulário
+
+Configurando o Gettotal
+
+Deletando lista FREE
+
+Salvando registros no local storage

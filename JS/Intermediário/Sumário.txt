@@ -1,0 +1,17 @@
+Orientação a Objetos;
+
+Protótipos e Classes;
+
+Tratamento de Erros e Debugging;
+
+Trabalhando com Expressões Regulares;
+
+Recursividade, escopo e closure;
+
+Location, History e Window;
+
+Trabalhando com Formulários;
+
+Abrindo e Salvando arquivos;
+
+Requisições HTTP;
