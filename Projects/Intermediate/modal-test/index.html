@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/control.js"></script>
+</head>
+<body>
+    <h1 class="display-4">Modal test</h1>
+    <button class="btn btn-outline-info btn-md" id="openModal" onclick="open()">Open</button>
+
+    <div class="hideB" id="fade"></div>
+    <!--Fundo do modal-->
+
+    <div class="hideB" id="modal">
+        <div id="modal-header">
+            <h1 class="display-4">Glub Glub</h1>
+            <button class="btn btn-outline-danger btn-sm" id="close-modal">X</button>
+        </div>
+        <div id="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut itaque distinctio eveniet consequatur reprehenderit vero sit, animi ab accusantium debitis assumenda? Quibusdam, cum ut? Tempora ullam dolores voluptate fugiat!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et numquam voluptas, accusamus quasi iure corporis perspiciatis ea at dolores excepturi fugit laborum natus provident similique odit! Accusamus, dolorem quidem.</p>
+        </div>
+        <div id="modal-foot"></div>
+    </div>
+    <!--Modal-->
+</body>
+</html>
